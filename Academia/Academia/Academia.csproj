@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\Aluno.cs" />
+    <Compile Include="Models\Atividade.cs" />
+    <Compile Include="Models\Conta.cs" />
+    <Compile Include="Models\Histórico.cs" />
+    <Compile Include="Models\PersonalTrainer.cs" />
+    <Compile Include="Models\Usuário.cs" />
     <Compile Include="Principal.cs">
       <SubType>Form</SubType>
     </Compile>
