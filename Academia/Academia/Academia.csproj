@@ -79,6 +79,78 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\Cadastros\CadastroAtividade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Cadastros\CadastroAtividade.Designer.cs">
+      <DependentUpon>CadastroAtividade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Cadastros\CadastroConta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Cadastros\CadastroConta.Designer.cs">
+      <DependentUpon>CadastroConta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Cadastros\CadastroHistorico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Cadastros\CadastroHistorico.Designer.cs">
+      <DependentUpon>CadastroHistorico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Cadastros\CadastroPersonalTrainer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Cadastros\CadastroPersonalTrainer.Designer.cs">
+      <DependentUpon>CadastroPersonalTrainer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Cadastros\CadastroUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Cadastros\CadastroUsuario.Designer.cs">
+      <DependentUpon>CadastroUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Cadastros\CatastroAluno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Cadastros\CatastroAluno.Designer.cs">
+      <DependentUpon>CatastroAluno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Cadastros\ListaAlunos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Cadastros\ListaAlunos.Designer.cs">
+      <DependentUpon>ListaAlunos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Cadastros\ListaAtividades.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Cadastros\ListaAtividades.Designer.cs">
+      <DependentUpon>ListaAtividades.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Cadastros\ListaContas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Cadastros\ListaContas.Designer.cs">
+      <DependentUpon>ListaContas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Cadastros\ListaHistoricos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Cadastros\ListaHistoricos.Designer.cs">
+      <DependentUpon>ListaHistoricos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Cadastros\ListasPersonalTrainers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Cadastros\ListasPersonalTrainers.Designer.cs">
+      <DependentUpon>ListasPersonalTrainers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Cadastros\ListasUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Cadastros\ListasUsuarios.Designer.cs">
+      <DependentUpon>ListasUsuarios.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Principal.resx">
       <DependentUpon>Principal.cs</DependentUpon>
     </EmbeddedResource>
@@ -91,6 +163,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Views\Cadastros\CatastroAluno.resx">
+      <DependentUpon>CatastroAluno.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -106,6 +181,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\Financeiro\" />
+    <Folder Include="Views\Relatorios\" />
+    <Folder Include="Views\Utilitarios\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
