@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Academia.Views.Cadastros
 {
-    public partial class CatastroAluno : Form
+    public partial class CadastroAluno : Form
     {
-        public CatastroAluno()
+        public CadastroAluno()
         {
             InitializeComponent();
         }

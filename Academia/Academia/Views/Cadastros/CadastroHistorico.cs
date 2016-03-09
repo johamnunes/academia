@@ -16,5 +16,10 @@ namespace Academia.Views.Cadastros
         {
             InitializeComponent();
         }
+
+        private void CadastroHistorico_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

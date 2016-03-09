@@ -1,6 +1,6 @@
 ﻿namespace Academia.Views.Cadastros
 {
-    partial class CatastroAluno
+    partial class CadastroAluno
     {
         /// <summary>
         /// Required designer variable.

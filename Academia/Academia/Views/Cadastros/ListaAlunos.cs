@@ -16,5 +16,11 @@ namespace Academia.Views.Cadastros
         {
             InitializeComponent();
         }
+
+        private void btnNovo_Click(object sender, EventArgs e)
+        {
+            new CadastroAluno().Show();
+        }
+
     }
 }

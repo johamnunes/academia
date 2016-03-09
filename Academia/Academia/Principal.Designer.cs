@@ -115,18 +115,21 @@
             this.alunosToolStripMenuItem.Name = "alunosToolStripMenuItem";
             this.alunosToolStripMenuItem.Size = new System.Drawing.Size(228, 22);
             this.alunosToolStripMenuItem.Text = "Alunos";
+            this.alunosToolStripMenuItem.Click += new System.EventHandler(this.alunosToolStripMenuItem_Click);
             // 
             // atividadesToolStripMenuItem
             // 
             this.atividadesToolStripMenuItem.Name = "atividadesToolStripMenuItem";
             this.atividadesToolStripMenuItem.Size = new System.Drawing.Size(228, 22);
             this.atividadesToolStripMenuItem.Text = "Atividades";
+            this.atividadesToolStripMenuItem.Click += new System.EventHandler(this.atividadesToolStripMenuItem_Click);
             // 
             // personaisToolStripMenuItem
             // 
             this.personaisToolStripMenuItem.Name = "personaisToolStripMenuItem";
             this.personaisToolStripMenuItem.Size = new System.Drawing.Size(228, 22);
             this.personaisToolStripMenuItem.Text = "Professores/Personal Trainers";
+            this.personaisToolStripMenuItem.Click += new System.EventHandler(this.personaisToolStripMenuItem_Click);
             // 
             // financeiroToolStripMenuItem
             // 
@@ -142,12 +145,14 @@
             this.contasToolStripMenuItem.Name = "contasToolStripMenuItem";
             this.contasToolStripMenuItem.Size = new System.Drawing.Size(127, 22);
             this.contasToolStripMenuItem.Text = "Contas";
+            this.contasToolStripMenuItem.Click += new System.EventHandler(this.contasToolStripMenuItem_Click);
             // 
             // históricosToolStripMenuItem
             // 
             this.históricosToolStripMenuItem.Name = "históricosToolStripMenuItem";
             this.históricosToolStripMenuItem.Size = new System.Drawing.Size(127, 22);
             this.históricosToolStripMenuItem.Text = "Históricos";
+            this.históricosToolStripMenuItem.Click += new System.EventHandler(this.históricosToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
@@ -159,6 +164,7 @@
             this.usuáriosToolStripMenuItem.Name = "usuáriosToolStripMenuItem";
             this.usuáriosToolStripMenuItem.Size = new System.Drawing.Size(228, 22);
             this.usuáriosToolStripMenuItem.Text = "Usuários";
+            this.usuáriosToolStripMenuItem.Click += new System.EventHandler(this.usuáriosToolStripMenuItem_Click);
             // 
             // opçõesToolStripMenuItem
             // 

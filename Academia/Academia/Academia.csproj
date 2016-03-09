@@ -109,11 +109,11 @@
     <Compile Include="Views\Cadastros\CadastroUsuario.Designer.cs">
       <DependentUpon>CadastroUsuario.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\Cadastros\CatastroAluno.cs">
+    <Compile Include="Views\Cadastros\CadastroAluno.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Views\Cadastros\CatastroAluno.Designer.cs">
-      <DependentUpon>CatastroAluno.cs</DependentUpon>
+    <Compile Include="Views\Cadastros\CadastroAluno.Designer.cs">
+      <DependentUpon>CadastroAluno.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\Cadastros\ListaAlunos.cs">
       <SubType>Form</SubType>
@@ -163,8 +163,41 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Views\Cadastros\CatastroAluno.resx">
-      <DependentUpon>CatastroAluno.cs</DependentUpon>
+    <EmbeddedResource Include="Views\Cadastros\CadastroAtividade.resx">
+      <DependentUpon>CadastroAtividade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Cadastros\CadastroConta.resx">
+      <DependentUpon>CadastroConta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Cadastros\CadastroHistorico.resx">
+      <DependentUpon>CadastroHistorico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Cadastros\CadastroPersonalTrainer.resx">
+      <DependentUpon>CadastroPersonalTrainer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Cadastros\CadastroUsuario.resx">
+      <DependentUpon>CadastroUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Cadastros\CadastroAluno.resx">
+      <DependentUpon>CadastroAluno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Cadastros\ListaAlunos.resx">
+      <DependentUpon>ListaAlunos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Cadastros\ListaAtividades.resx">
+      <DependentUpon>ListaAtividades.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Cadastros\ListaContas.resx">
+      <DependentUpon>ListaContas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Cadastros\ListaHistoricos.resx">
+      <DependentUpon>ListaHistoricos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Cadastros\ListasPersonalTrainers.resx">
+      <DependentUpon>ListasPersonalTrainers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Cadastros\ListasUsuarios.resx">
+      <DependentUpon>ListasUsuarios.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
