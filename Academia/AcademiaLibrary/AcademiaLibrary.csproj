@@ -41,6 +41,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AlunoController.cs" />
+    <Compile Include="AtividadeController.cs" />
+    <Compile Include="ContaContoller.cs" />
+    <Compile Include="HistoricoController.cs" />
     <Compile Include="IDatabase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
