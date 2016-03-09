@@ -151,9 +151,9 @@
             this.groupBox1.Controls.Add(this.textBox5);
             this.groupBox1.Controls.Add(this.Logradouro);
             this.groupBox1.Controls.Add(this.textBox4);
-            this.groupBox1.Location = new System.Drawing.Point(12, 106);
+            this.groupBox1.Location = new System.Drawing.Point(12, 90);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(562, 105);
+            this.groupBox1.Size = new System.Drawing.Size(548, 120);
             this.groupBox1.TabIndex = 8;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Endereço";
@@ -161,7 +161,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(308, 74);
+            this.label8.Location = new System.Drawing.Point(308, 80);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(40, 13);
             this.label8.TabIndex = 20;
@@ -170,7 +170,7 @@
             // comboBox2
             // 
             this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(354, 71);
+            this.comboBox2.Location = new System.Drawing.Point(354, 77);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(174, 21);
             this.comboBox2.TabIndex = 19;
@@ -178,7 +178,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(23, 74);
+            this.label7.Location = new System.Drawing.Point(23, 80);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(40, 13);
             this.label7.TabIndex = 18;
@@ -186,7 +186,7 @@
             // 
             // textBox10
             // 
-            this.textBox10.Location = new System.Drawing.Point(69, 71);
+            this.textBox10.Location = new System.Drawing.Point(69, 77);
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(197, 20);
             this.textBox10.TabIndex = 17;
@@ -194,7 +194,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(404, 48);
+            this.label6.Location = new System.Drawing.Point(404, 54);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(28, 13);
             this.label6.TabIndex = 16;
@@ -202,7 +202,7 @@
             // 
             // textBox9
             // 
-            this.textBox9.Location = new System.Drawing.Point(438, 45);
+            this.textBox9.Location = new System.Drawing.Point(438, 51);
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(90, 20);
             this.textBox9.TabIndex = 15;
@@ -210,7 +210,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(202, 48);
+            this.label3.Location = new System.Drawing.Point(202, 54);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(34, 13);
             this.label3.TabIndex = 14;
@@ -218,7 +218,7 @@
             // 
             // textBox8
             // 
-            this.textBox8.Location = new System.Drawing.Point(242, 45);
+            this.textBox8.Location = new System.Drawing.Point(242, 51);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(147, 20);
             this.textBox8.TabIndex = 13;
@@ -226,7 +226,7 @@
             // labl
             // 
             this.labl.AutoSize = true;
-            this.labl.Location = new System.Drawing.Point(24, 48);
+            this.labl.Location = new System.Drawing.Point(24, 54);
             this.labl.Name = "labl";
             this.labl.Size = new System.Drawing.Size(39, 13);
             this.labl.TabIndex = 12;
@@ -234,7 +234,7 @@
             // 
             // textBox7
             // 
-            this.textBox7.Location = new System.Drawing.Point(69, 45);
+            this.textBox7.Location = new System.Drawing.Point(69, 51);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(106, 20);
             this.textBox7.TabIndex = 11;
@@ -242,7 +242,7 @@
             // Número
             // 
             this.Número.AutoSize = true;
-            this.Número.Location = new System.Drawing.Point(422, 22);
+            this.Número.Location = new System.Drawing.Point(422, 28);
             this.Número.Name = "Número";
             this.Número.Size = new System.Drawing.Size(44, 13);
             this.Número.TabIndex = 10;
@@ -250,7 +250,7 @@
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(472, 19);
+            this.textBox5.Location = new System.Drawing.Point(472, 25);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(56, 20);
             this.textBox5.TabIndex = 9;
@@ -258,7 +258,7 @@
             // Logradouro
             // 
             this.Logradouro.AutoSize = true;
-            this.Logradouro.Location = new System.Drawing.Point(2, 26);
+            this.Logradouro.Location = new System.Drawing.Point(2, 32);
             this.Logradouro.Name = "Logradouro";
             this.Logradouro.Size = new System.Drawing.Size(61, 13);
             this.Logradouro.TabIndex = 1;
@@ -266,7 +266,7 @@
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(69, 19);
+            this.textBox4.Location = new System.Drawing.Point(69, 25);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(320, 20);
             this.textBox4.TabIndex = 0;
@@ -414,6 +414,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.Limpar);
             this.Controls.Add(this.Salvar);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "CatastroAluno";

@@ -30,6 +30,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.9.6.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 6.9.6\Assemblies\v4.5\MySql.Data.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -44,7 +48,12 @@
     <Compile Include="AtividadeController.cs" />
     <Compile Include="ContaContoller.cs" />
     <Compile Include="HistoricoController.cs" />
-    <Compile Include="IDatabase.cs" />
+    <Compile Include="Models\Aluno.cs" />
+    <Compile Include="Models\Atividade.cs" />
+    <Compile Include="Models\Conta.cs" />
+    <Compile Include="Models\Histórico.cs" />
+    <Compile Include="Models\PersonalTrainer.cs" />
+    <Compile Include="Models\Usuário.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
