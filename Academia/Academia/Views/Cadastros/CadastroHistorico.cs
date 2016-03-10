@@ -17,9 +17,16 @@ namespace Academia.Views.Cadastros
             InitializeComponent();
         }
 
-        private void CadastroHistorico_Load(object sender, EventArgs e)
+        private void Limpar_Click(object sender, EventArgs e)
         {
+            txtId.Text = "";
+            txtHistorico.Text = "";
+            cbConta.SelectedIndex = -1;
+        }
 
+        private void Fechar_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
