@@ -16,17 +16,5 @@ namespace Academia.Views.Cadastros
         {
             InitializeComponent();
         }
-
-        private void Limpar_Click(object sender, EventArgs e)
-        {
-            txtId.Text = "";
-            txtDescricao.Text = "";
-            cbTipo.SelectedIndex = -1;
-        }
-
-        private void Fechar_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
     }
 }

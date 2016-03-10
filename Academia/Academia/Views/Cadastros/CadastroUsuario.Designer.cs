@@ -32,13 +32,13 @@
             this.Fechar = new System.Windows.Forms.Button();
             this.Limpar = new System.Windows.Forms.Button();
             this.Salvar = new System.Windows.Forms.Button();
-            this.txtId = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.txtNome = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.txtLogin = new System.Windows.Forms.TextBox();
-            this.txtSenha = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -58,7 +58,6 @@
             this.Fechar.TabIndex = 32;
             this.Fechar.Text = "Fechar";
             this.Fechar.UseVisualStyleBackColor = true;
-            this.Fechar.Click += new System.EventHandler(this.Fechar_Click);
             // 
             // Limpar
             // 
@@ -78,14 +77,13 @@
             this.Salvar.Text = "Salvar";
             this.Salvar.UseVisualStyleBackColor = true;
             // 
-            // txtId
+            // textBox3
             // 
-            this.txtId.Location = new System.Drawing.Point(71, 17);
-            this.txtId.Name = "txtId";
-            this.txtId.ReadOnly = true;
-            this.txtId.Size = new System.Drawing.Size(70, 20);
-            this.txtId.TabIndex = 29;
-            this.txtId.TextChanged += new System.EventHandler(this.txtId_TextChanged);
+            this.textBox3.Location = new System.Drawing.Point(71, 17);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.ReadOnly = true;
+            this.textBox3.Size = new System.Drawing.Size(70, 20);
+            this.textBox3.TabIndex = 29;
             // 
             // label3
             // 
@@ -105,12 +103,12 @@
             this.label2.TabIndex = 27;
             this.label2.Text = "Nome";
             // 
-            // txtNome
+            // textBox1
             // 
-            this.txtNome.Location = new System.Drawing.Point(71, 48);
-            this.txtNome.Name = "txtNome";
-            this.txtNome.Size = new System.Drawing.Size(170, 20);
-            this.txtNome.TabIndex = 26;
+            this.textBox1.Location = new System.Drawing.Point(71, 48);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(170, 20);
+            this.textBox1.TabIndex = 26;
             // 
             // label4
             // 
@@ -121,37 +119,37 @@
             this.label4.TabIndex = 34;
             this.label4.Text = "Senha";
             // 
-            // txtLogin
+            // textBox2
             // 
-            this.txtLogin.Location = new System.Drawing.Point(71, 79);
-            this.txtLogin.Name = "txtLogin";
-            this.txtLogin.Size = new System.Drawing.Size(170, 20);
-            this.txtLogin.TabIndex = 35;
+            this.textBox2.Location = new System.Drawing.Point(71, 79);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(170, 20);
+            this.textBox2.TabIndex = 35;
             // 
-            // txtSenha
+            // textBox4
             // 
-            this.txtSenha.Location = new System.Drawing.Point(71, 110);
-            this.txtSenha.Name = "txtSenha";
-            this.txtSenha.Size = new System.Drawing.Size(170, 20);
-            this.txtSenha.TabIndex = 36;
-            this.txtSenha.UseSystemPasswordChar = true;
+            this.textBox4.Location = new System.Drawing.Point(71, 110);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(170, 20);
+            this.textBox4.TabIndex = 36;
+            this.textBox4.UseSystemPasswordChar = true;
             // 
             // CadastroUsuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(384, 161);
-            this.Controls.Add(this.txtSenha);
-            this.Controls.Add(this.txtLogin);
+            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.textBox2);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Fechar);
             this.Controls.Add(this.Limpar);
             this.Controls.Add(this.Salvar);
-            this.Controls.Add(this.txtId);
+            this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.txtNome);
+            this.Controls.Add(this.textBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -169,12 +167,12 @@
         private System.Windows.Forms.Button Fechar;
         private System.Windows.Forms.Button Limpar;
         private System.Windows.Forms.Button Salvar;
-        private System.Windows.Forms.TextBox txtId;
+        private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txtNome;
+        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox txtLogin;
-        private System.Windows.Forms.TextBox txtSenha;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox4;
     }
 }

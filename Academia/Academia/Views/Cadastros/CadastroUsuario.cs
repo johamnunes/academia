@@ -16,18 +16,5 @@ namespace Academia.Views.Cadastros
         {
             InitializeComponent();
         }
-
-        private void txtId_TextChanged(object sender, EventArgs e)
-        {
-            txtId.Text = "";
-            txtNome.Text = "";
-            txtLogin.Text = "";
-            txtSenha.Text = "";
-        }
-
-        private void Fechar_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
     }
 }

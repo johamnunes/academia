@@ -17,29 +17,14 @@ namespace Academia.Views.Cadastros
             InitializeComponent();
         }
 
-        private void Limpar_Click(object sender, EventArgs e)
+        private void label9_Click(object sender, EventArgs e)
         {
-            txtId.Text = "";
-            txtNome.Text = "";
-            txtApelido.Text = "";
-            txtLogradouro.Text = "";
-            txtNumero.Text = "";
-            txtCidade.Text = "";
-            txtBairro.Text = "";
-            txtCompl.Text = "";
-            txtCEP.Text = "";
-            cbEstado.SelectedIndex = -1;
-            mtxtTelefone.Text = "";
-            mtxtTelEmergencia.Text = "";
-            cbSexo.SelectedIndex = -1;
-            txtObs.Text = "";
-            dtNasc.Value = DateTime.Now;
-            dtNasc.Value = DateTime.Today;
+
         }
 
-        private void Fechar_Click(object sender, EventArgs e)
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            this.Close();
+
         }
     }
 }

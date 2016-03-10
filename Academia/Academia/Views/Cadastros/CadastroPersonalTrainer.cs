@@ -17,16 +17,9 @@ namespace Academia.Views.Cadastros
             InitializeComponent();
         }
 
-        private void Limpar_Click(object sender, EventArgs e)
+        private void CadastroPersonalTrainer_Load(object sender, EventArgs e)
         {
-            txtId.Text = "";
-            txtNome.Text = "";
-            mtxtTelefone.Text = "";
-        }
 
-        private void Fechar_Click(object sender, EventArgs e)
-        {
-            this.Close();
         }
     }
 }
