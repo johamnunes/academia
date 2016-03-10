@@ -31,12 +31,12 @@
             this.Fechar = new System.Windows.Forms.Button();
             this.Limpar = new System.Windows.Forms.Button();
             this.Salvar = new System.Windows.Forms.Button();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtId = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtDescricao = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cbTipo = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // Fechar
@@ -47,6 +47,7 @@
             this.Fechar.TabIndex = 23;
             this.Fechar.Text = "Fechar";
             this.Fechar.UseVisualStyleBackColor = true;
+            this.Fechar.Click += new System.EventHandler(this.Fechar_Click);
             // 
             // Limpar
             // 
@@ -56,6 +57,7 @@
             this.Limpar.TabIndex = 22;
             this.Limpar.Text = "Limpar";
             this.Limpar.UseVisualStyleBackColor = true;
+            this.Limpar.Click += new System.EventHandler(this.Limpar_Click);
             // 
             // Salvar
             // 
@@ -66,13 +68,13 @@
             this.Salvar.Text = "Salvar";
             this.Salvar.UseVisualStyleBackColor = true;
             // 
-            // textBox3
+            // txtId
             // 
-            this.textBox3.Location = new System.Drawing.Point(73, 25);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.ReadOnly = true;
-            this.textBox3.Size = new System.Drawing.Size(70, 20);
-            this.textBox3.TabIndex = 20;
+            this.txtId.Location = new System.Drawing.Point(73, 25);
+            this.txtId.Name = "txtId";
+            this.txtId.ReadOnly = true;
+            this.txtId.Size = new System.Drawing.Size(70, 20);
+            this.txtId.TabIndex = 20;
             // 
             // label3
             // 
@@ -92,12 +94,12 @@
             this.label2.TabIndex = 17;
             this.label2.Text = "Descrição";
             // 
-            // textBox1
+            // txtDescricao
             // 
-            this.textBox1.Location = new System.Drawing.Point(73, 61);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(170, 20);
-            this.textBox1.TabIndex = 15;
+            this.txtDescricao.Location = new System.Drawing.Point(73, 61);
+            this.txtDescricao.Name = "txtDescricao";
+            this.txtDescricao.Size = new System.Drawing.Size(170, 20);
+            this.txtDescricao.TabIndex = 15;
             // 
             // label1
             // 
@@ -108,28 +110,28 @@
             this.label1.TabIndex = 24;
             this.label1.Text = "Tipo";
             // 
-            // comboBox1
+            // cbTipo
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(73, 97);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(170, 21);
-            this.comboBox1.TabIndex = 25;
+            this.cbTipo.FormattingEnabled = true;
+            this.cbTipo.Location = new System.Drawing.Point(73, 97);
+            this.cbTipo.Name = "cbTipo";
+            this.cbTipo.Size = new System.Drawing.Size(170, 21);
+            this.cbTipo.TabIndex = 25;
             // 
             // CadastroConta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(384, 161);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cbTipo);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Fechar);
             this.Controls.Add(this.Limpar);
             this.Controls.Add(this.Salvar);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.txtId);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtDescricao);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -146,11 +148,11 @@
         private System.Windows.Forms.Button Fechar;
         private System.Windows.Forms.Button Limpar;
         private System.Windows.Forms.Button Salvar;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtId;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtDescricao;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cbTipo;
     }
 }

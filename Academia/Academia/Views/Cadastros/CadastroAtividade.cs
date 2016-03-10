@@ -17,9 +17,16 @@ namespace Academia.Views.Cadastros
             InitializeComponent();
         }
 
-        private void CadastroAtividade_Load(object sender, EventArgs e)
+        private void Limpar_Click(object sender, EventArgs e)
         {
+            txtId.Text = "";
+            txtDescricao.Text ="";
+            txtValor.Text = "";
+        }
 
+        private void Fechar_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

@@ -28,23 +28,23 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtDescricao = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtValor = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtId = new System.Windows.Forms.TextBox();
             this.Salvar = new System.Windows.Forms.Button();
             this.Limpar = new System.Windows.Forms.Button();
             this.Fechar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // textBox1
+            // txtDescricao
             // 
-            this.textBox1.Location = new System.Drawing.Point(73, 65);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(170, 20);
-            this.textBox1.TabIndex = 0;
+            this.txtDescricao.Location = new System.Drawing.Point(73, 65);
+            this.txtDescricao.Name = "txtDescricao";
+            this.txtDescricao.Size = new System.Drawing.Size(170, 20);
+            this.txtDescricao.TabIndex = 0;
             // 
             // label1
             // 
@@ -64,12 +64,12 @@
             this.label2.TabIndex = 5;
             this.label2.Text = "Descrição";
             // 
-            // textBox2
+            // txtValor
             // 
-            this.textBox2.Location = new System.Drawing.Point(73, 103);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 6;
+            this.txtValor.Location = new System.Drawing.Point(73, 103);
+            this.txtValor.Name = "txtValor";
+            this.txtValor.Size = new System.Drawing.Size(100, 20);
+            this.txtValor.TabIndex = 6;
             // 
             // label3
             // 
@@ -80,13 +80,13 @@
             this.label3.TabIndex = 7;
             this.label3.Text = "Código";
             // 
-            // textBox3
+            // txtId
             // 
-            this.textBox3.Location = new System.Drawing.Point(73, 26);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.ReadOnly = true;
-            this.textBox3.Size = new System.Drawing.Size(70, 20);
-            this.textBox3.TabIndex = 8;
+            this.txtId.Location = new System.Drawing.Point(73, 26);
+            this.txtId.Name = "txtId";
+            this.txtId.ReadOnly = true;
+            this.txtId.Size = new System.Drawing.Size(70, 20);
+            this.txtId.TabIndex = 8;
             // 
             // Salvar
             // 
@@ -105,6 +105,7 @@
             this.Limpar.TabIndex = 10;
             this.Limpar.Text = "Limpar";
             this.Limpar.UseVisualStyleBackColor = true;
+            this.Limpar.Click += new System.EventHandler(this.Limpar_Click);
             // 
             // Fechar
             // 
@@ -114,6 +115,7 @@
             this.Fechar.TabIndex = 14;
             this.Fechar.Text = "Fechar";
             this.Fechar.UseVisualStyleBackColor = true;
+            this.Fechar.Click += new System.EventHandler(this.Fechar_Click);
             // 
             // CadastroAtividade
             // 
@@ -123,19 +125,18 @@
             this.Controls.Add(this.Fechar);
             this.Controls.Add(this.Limpar);
             this.Controls.Add(this.Salvar);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.txtId);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtValor);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtDescricao);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "CadastroAtividade";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CadastroAtividade";
-            this.Load += new System.EventHandler(this.CadastroAtividade_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -143,12 +144,12 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtDescricao;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtValor;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtId;
         private System.Windows.Forms.Button Salvar;
         private System.Windows.Forms.Button Limpar;
         private System.Windows.Forms.Button Fechar;
